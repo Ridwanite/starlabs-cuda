@@ -13,8 +13,12 @@ sudo apt install build-essential libelf-dev
 ```
 ### Blacklist Nouveau
 ```
-echo "# Blacklisting nouveau'\n'blacklist nouveau'\n'blacklist lbm-nouveau'\n'alias nouveau off'\n'alias lbm-nouveau off'\n'options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist.conf
+echo Blacklisting nouveau$'\n'blacklist nouveau$'\n'blacklist lbm-nouveau$'\n'alias nouveau off$'\n'alias lbm-nouveau off$'\n'options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/blacklist.conf
+
+sed -i 's/Blacklisting nouveau/# Blacklisting nouveau/'g /etc/modprobe.d/blacklist.conf
+
 sudo update-initramfs -u -k all
+
 sudo systemctl mask gpu-manager.service
 ```
 
