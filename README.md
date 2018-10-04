@@ -45,5 +45,5 @@ sudo sh cuda-linux.10.0.130-24817639.run
 ```
 
 ### Enable GPU
-Go back to the BIOS and disable the GPU
+Go back to the BIOS and enable the GPU
 
