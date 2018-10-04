@@ -20,8 +20,7 @@ sudo systemctl mask gpu-manager.service
 
 ### Download CUDA
 ```
-wget https://developer.download.nvidia.com/compute/cuda/10.0/secure/Prod/local_installers/cuda_10.0.130_410.48_linux.run?A0ImldWIDBYEavHhvr9LAx3cvxA-sFFz-NorUI9p32djfBv3YwMtbSANXF6BUIsV9uoZNQBkXgyzF1tBJyw8x5rBEOVx9pSBSng_WUJaNYlDC-BeJZ-b9gHgQyDAQTWEUB-wz9MNIOVjSDl78o_qFlow34tSmSxbfV5s2F7PMD0vYBUWrBwgtSsVPDo
-```
+wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
 
 ### Extract CUDA
 ```
