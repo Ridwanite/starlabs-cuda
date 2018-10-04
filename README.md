@@ -25,7 +25,9 @@ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_1
 ### Extract CUDA
 ```
 sudo chmod +x cuda_10.0.130_410.48_linux
+
 mkdir ~/Downloads/cuda-extracted/
+
 sh cuda_10.0.130_410.48_linux --extract=~/Downloads/cuda-extracted/
 ```
 
