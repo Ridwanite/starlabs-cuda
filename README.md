@@ -13,7 +13,7 @@ sudo apt install build-essential libelf-dev
 ```
 ### Blacklist Nouveau
 ```
-echo "# Blacklisting nouveau\nblacklist nouveau\nblacklist lbm-nouveau\nalias nouveau off\nalias lbm-nouveau off\noptions nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist.conf
+echo "# Blacklisting nouveau'\n'blacklist nouveau'\n'blacklist lbm-nouveau'\n'alias nouveau off'\n'alias lbm-nouveau off'\n'options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist.conf
 sudo update-initramfs -u -k all
 sudo systemctl mask gpu-manager.service
 ```
@@ -24,7 +24,9 @@ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_1
 
 ### Extract CUDA
 ```
-sudo sh cuda_10.0.130_410.48_linux.run --extract=~/Downloads/cuda-extracted
+sudo chmod +x cuda_10.0.130_410.48_linux
+mkdir ~/Downloads/cuda-extracted/
+sh cuda_10.0.130_410.48_linux --extract=~/Downloads/cuda-extracted/
 ```
 
 ### Enable GPU
