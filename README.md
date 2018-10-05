@@ -1,4 +1,4 @@
-# starlabs-cuda
+# Star Labs Cuda Setup ![alt text](https://cdn.shopify.com/s/files/1/2059/5897/files/Star_50x.png?v=1513954416 "Star Labs Systems")
 
 Before beginning, disable the Nvidia GPU in the BIOS by booting the computer whilst tapping F2.
 Use the arrow keys to navigate to the second tab at the top, select 'Advanced'.
@@ -64,4 +64,8 @@ sudo sh cuda-linux.10.0.130-24817639.run
 
 ### Enable GPU
 Go back to the BIOS and enable the GPU
+
+Any issues or questions, please contact us at [support@starlabs.systems](mailto:supportstarlabs.systems)
+
+[© Star Labs® / All Rights Reserved.](https://starlabs.systems) 
 
