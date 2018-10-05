@@ -3,7 +3,7 @@
 Before beginning, disable the Nvidia GPU in the BIOS by booting the computer whilst tapping F2.
 Use the arrow keys to navigate to the second tab at the top, select 'Advanced'.
 ![alt text](images/Star_Labs_Labtop_Pro_MkI-BIOS_Advanced.jpg "Advanced")
-![alt text](images/Star_Labs_Labtop_Pro_MkI-BIOS_Advanced.png "Advanced")
+![alt text](images/Star_Labs_LabTop_Pro_Mk_I-BIOS_Advanced.png "Advanced")
 
 Under 'Advanced Chipset Control', use the arrow keys to change the 
 
