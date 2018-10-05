@@ -5,7 +5,7 @@ Use the arrow keys to navigate to the second tab at the top, select 'Advanced'.
 ![alt text](images/Star_Labs_Labtop_Pro_MkI-BIOS_Advanced.jpg "Advanced")
 
 Under 'Advanced Chipset Control', use the arrow keys select "Disabled" under "GPU ON/OFF".
-![alt text](images/Star_Labs_LabTop_Pro_MkI-BIOS_GPU.jpg "Disable GPU")
+![alt text](images/Star_Labs_Labtop_Pro_MkI-BIOS_GPU.jpg "Disable GPU")
 
 ### Remove previous install
 Remove all existing Nvidia files with the below command
