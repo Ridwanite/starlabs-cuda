@@ -12,7 +12,11 @@ Remove all existing Nvidia files with the below command
 ```
 sudo apt purge *nvidia*
 ```
-
+### Remove existing xorg.conf
+Remove existing xorg.conf file
+```
+sudo rm /etc/X11/xorg.conf
+```
 
 ### Install dependancies
 ```
